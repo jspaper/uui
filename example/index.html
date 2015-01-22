@@ -1,0 +1,22 @@
+<html>
+<header>
+    <title>uui example</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="build/uui.pkg.js"></script>
+    <script type="text/javascript" src="http://sugarjs.com/release/current/sugar.min.js"></script>
+</header>
+<body>
+
+    <input type="radio" name="example[la]" id="rd1" value="DNS_STR01" class="uui-radiogroup">
+        <select id="xxx" class="uui-select" disableBy='rd1'>
+        <input type="text" class="uui-numberfield" name='pd_ip1' id='pd_ip1' maxlength=3 disableBy='rd1'>
+    <input type="radio" name="example[la]" id="rd2" value="DNS_STR01" class="uui-radiogroup">
+
+</body>
+
+<script>
+(function () {
+    uui.Form.render();
+})();
+</script>
+</html>
